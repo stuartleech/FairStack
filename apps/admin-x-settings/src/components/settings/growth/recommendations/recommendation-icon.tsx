@@ -21,12 +21,12 @@ const RecommendationIcon: React.FC<Props> = ({title, favicon, featured_image, is
         </div>;
     }
 
-    const hint = isGhostSite ? 'This is a Ghost site that supports one-click subscribe' : '';
+    const hint = isGhostSite ? 'This site supports one-click subscribe' : '';
 
     return (
         <div className="dark:group-hover/table-row:bg-grey-950 relative size-6 shrink-0 rounded-sm" title={hint}>
             <img alt={title} className="size-6 rounded-sm" src={icon} onError={clearIcon} />
-            {isGhostSite && <img alt='Ghost Logo' className='absolute bottom-[-3px] right-[-3px] size-[14px]' src={GhostLogo} />}
+            {isGhostSite && <img alt='Fairstack Logo' className='absolute bottom-[-3px] right-[-3px] size-[14px]' src={GhostLogo} />}
         </div>
     );
 };

@@ -108,7 +108,7 @@ const OfficialThemes: React.FC<{
                     background: `#15171a url(${MarketplaceBgImage}) 100% 100% / 35vw no-repeat`
                 }
             }>
-                Find and buy third-party, premium themes from independent developers in the <a className='inline-block font-semibold text-lime' href="https://ghost.org/themes/" rel="noopener noreferrer" target="_blank">Ghost Marketplace &rarr;</a>
+                Find and buy third-party, premium themes from independent developers in the <a className='inline-block font-semibold text-lime' href="https://ghost.org/themes/" rel="noopener noreferrer" target="_blank">Fairstack Marketplace &rarr;</a>
             </div>
         </ModalPage>
     );

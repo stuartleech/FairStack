@@ -163,7 +163,7 @@ const TestimonialsModal = NiceModal.create(() => {
                                 </svg>
                             </div>
                             <div className='mt-6'>
-                                <div className='text-2xl font-semibold tracking-tight'>A quote about Ghost</div>
+                                <div className='text-2xl font-semibold tracking-tight'>A quote about Fairstack</div>
                                 <div className='mt-2 text-pretty'>
                                 We feature quotes from publishers  to showcase their work, including a logo and a link! If you&apos;d like to be included, share a quote we can use to highlight you.
                                 </div>
@@ -172,7 +172,7 @@ const TestimonialsModal = NiceModal.create(() => {
                                 <TextArea
                                     error={Boolean(errors.content)}
                                     hint={errors.content}
-                                    placeholder='What changed for the better since you switched to Ghost?'
+                                    placeholder='What changed for the better since you switched to Fairstack?'
                                     rows={7}
                                     value={formState.content}
                                     autoFocus

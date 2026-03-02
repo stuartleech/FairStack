@@ -74,37 +74,37 @@ fieldset[disabled] .gh-btn {
 .gh-btn-primary,
 .gh-btn-black {
     color: var(--white);
-    background: var(--black);
+    background: #2d5a3d;
     border: none;
 }
 
 .gh-btn-primary:hover,
 .gh-btn-black:hover {
     color: var(--white);
-    background: color-mod(var(--black) l(-20%)) !important;
+    background: #1e3d2b !important;
 }
 
-/* Blue button
+/* Blue button (rebranded to Fairstack green)
 /* ---------------------------------------------------------- */
 
 /* The background of the button creates 1px gradient border */
 .gh-btn-blue {
     color: #fff;
     fill: #fff;
-    background: var(--blue);
+    background: #2d5a3d;
     border: none;
 }
 
 .gh-btn-blue:hover {
     color: #fff !important;
-    background: color-mod(var(--blue) l(-4%)) !important;
+    background: #234830 !important;
     border: none;
 }
 
 /* When clicked or focused with keyboard */
 .gh-btn-blue:active,
 .gh-btn-blue:focus {
-    background: color-mod(var(--blue) l(-7%)) !important;
+    background: #1a3622 !important;
     border: none;
 }
 
@@ -177,14 +177,14 @@ fieldset[disabled] .gh-btn {
 }
 
 .gh-btn-outline.blue {
-    border-color: var(--blue);
-    color: var(--blue);
+    border-color: #2d5a3d;
+    color: #2d5a3d;
     box-shadow: none;
 }
 
 .gh-btn-outline.blue:hover {
-    border-color: color-mod(var(--blue) l(-10%));
-    color: color-mod(var(--blue) l(-10%));
+    border-color: #1e3d2b;
+    color: #1e3d2b;
     box-shadow: none;
 }
 
@@ -193,8 +193,8 @@ fieldset[disabled] .gh-btn {
 /* ---------------------------------------------------------- */
 
 .gh-btn-hover-blue:hover {
-    color: var(--blue);
-    border-color: var(--blue);
+    color: #2d5a3d;
+    border-color: #2d5a3d;
 }
 
 .gh-btn-hover-green:hover {
@@ -316,7 +316,7 @@ svg.gh-btn-icon-right {
 }
 
 .gh-btn-text.blue span {
-    color: var(--blue);
+    color: #2d5a3d;
 }
 
 .gh-btn-text.red span {
@@ -506,7 +506,7 @@ Usage: CTA buttons grouped together horizontally.
 }
 
 .gh-btn-link.blue {
-    color: var(--blue);
+    color: #2d5a3d;
 }
 
 /* Tab buttons */

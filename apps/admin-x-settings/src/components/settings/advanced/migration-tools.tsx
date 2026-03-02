@@ -25,7 +25,7 @@ const MigrationTools: React.FC<{ keywords: string[] }> = ({keywords}) => {
     return (
         <TopLevelGroup
             customHeader={
-                <SettingGroupHeader description='Import content, members and subscriptions from other platforms or export your Ghost data.' title='Migration tools' />
+                <SettingGroupHeader description='Import content, members and subscriptions from other platforms or export your Fairstack data.' title='Migration tools' />
             }
             keywords={keywords}
             navid='migration'

@@ -102,7 +102,7 @@ const TransistorModal = NiceModal.create(() => {
                     <Toggle
                         checked={enabled}
                         direction='rtl'
-                        hint={<>Connect your Ghost site with <a className='text-green' href="https://transistor.fm" rel="noopener noreferrer" target="_blank">Transistor.fm</a> to offer members private podcasts.</>}
+                        hint={<>Connect your Fairstack site with <a className='text-green' href="https://transistor.fm" rel="noopener noreferrer" target="_blank">Transistor.fm</a> to offer members private podcasts.</>}
                         label='Enable Transistor'
                         onChange={(e) => {
                             setEnabled(e.target.checked);
@@ -124,8 +124,8 @@ const TransistorModal = NiceModal.create(() => {
                     <div className='mt-5 flex flex-col items-center'>
                         <a className='w-100 flex flex-col items-stretch justify-between overflow-hidden rounded-md bg-grey-75 transition-all hover:border-grey-400 hover:bg-grey-100 md:flex-row' href="https://ghost.org/integrations/transistor/" rel="noopener noreferrer" target="_blank">
                             <div className='order-2 px-7 py-5 md:order-1'>
-                                <div className='font-semibold'>How to use Transistor in Ghost</div>
-                                <div className='mt-1 text-sm text-grey-800 dark:text-grey-500'>Learn more about connecting Transistor with Ghost to offer members access to private podcasts in Portal or as an embed in posts and pages with a custom Transistor card.</div>
+                                <div className='font-semibold'>How to use Transistor in Fairstack</div>
+                                <div className='mt-1 text-sm text-grey-800 dark:text-grey-500'>Learn more about connecting Transistor with Fairstack to offer members access to private podcasts in Portal or as an embed in posts and pages with a custom Transistor card.</div>
                             </div>
                             <div className='order-1 hidden w-[200px] shrink-0 items-center justify-center overflow-hidden md:!visible md:order-2 md:!flex'>
                                 <img alt="Bookmark Thumb" className='min-h-full min-w-full shrink-0' src={BookmarkThumb} />

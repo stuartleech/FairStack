@@ -17,7 +17,7 @@ const features: Feature[] = [{
     flag: 'stripeAutomaticTax'
 }, {
     title: 'Email customization (internal beta)',
-    description: 'Newsletter customization settings that have been released to Ghost\'s own production sites',
+    description: 'Newsletter customization settings that have been released to Fairstack\'s own production sites',
     flag: 'emailCustomization'
 }, {
     title: 'Import Member Tier',

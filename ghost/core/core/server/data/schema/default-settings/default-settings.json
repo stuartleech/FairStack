@@ -233,7 +233,7 @@
     },
     "theme": {
         "active_theme": {
-            "defaultValue": "source",
+            "defaultValue": "casper",
             "flags": "RO",
             "type": "string"
         }

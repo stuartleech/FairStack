@@ -1,4 +1,3 @@
-import GhostLogo from '../assets/images/orb-pink.png';
 import React, {useEffect, useRef} from 'react';
 import clsx from 'clsx';
 import {Button, Icon, SettingNavItem, type SettingNavItemProps, SettingNavSection, TextField, useFocusContext} from '@tryghost/admin-x-design-system';
@@ -197,7 +196,7 @@ const Sidebar: React.FC = () => {
                 {/* Growth */}
                 <SettingNavSection isVisible={checkVisible(Object.values(growthSearchKeywords).flat())} title="Growth">
                     <NavItem icon='ap-network' keywords={growthSearchKeywords.network} navid='network' title="Network" onClick={handleSectionClick} />
-                    <NavItem icon='globe-simple' keywords={growthSearchKeywords.explore} navid='explore' title="Ghost Explore" onClick={handleSectionClick} />
+                    <NavItem icon='globe-simple' keywords={growthSearchKeywords.explore} navid='explore' title="Fairstack Explore" onClick={handleSectionClick} />
                     <NavItem icon='heart' keywords={growthSearchKeywords.recommendations} navid='recommendations' title="Recommendations" onClick={handleSectionClick} />
                     <NavItem icon='emailfield' keywords={growthSearchKeywords.embedSignupForm} navid='embed-signup-form' title="Signup forms" onClick={handleSectionClick} />
                     {hasStripeEnabled && <NavItem icon='discount' keywords={growthSearchKeywords.offers} navid='offers' title="Offers" onClick={handleSectionClick} />}
@@ -215,8 +214,13 @@ const Sidebar: React.FC = () => {
                 <a className='w-100 mb-10 mt-1 flex h-[38px] cursor-pointer items-center rounded-lg px-3 py-2 text-left text-[14px] font-medium text-grey-800 transition-all hover:bg-grey-200 focus:bg-grey-100 dark:text-grey-600 dark:hover:bg-grey-950 dark:focus:bg-grey-925' onClick={() => {
                     updateRoute('about');
                 }}>
-                    <img alt='Ghost Logo' className='mr-[7px] size-[18px]' src={GhostLogo} />
-                    About Ghost
+                    <svg className='mr-[7px]' fill="none" height="18" viewBox="0 0 44 44" width="18" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 38 C22 38 22 20 22 14" stroke="#1c1f1a" strokeLinecap="round" strokeWidth="2"/>
+                        <path d="M22 20 C18 18 10 16 8 10 C8 10 14 8 18 12 C20 14 22 18 22 20Z" fill="#2d5a3d"/>
+                        <path d="M22 26 C26 22 34 20 38 14 C38 14 32 10 27 15 C24 18 22 24 22 26Z" fill="#4a7c59"/>
+                        <circle cx="22" cy="38" fill="#1c1f1a" r="2"/>
+                    </svg>
+                    About Fairstack
                 </a>
                 }
             </nav>

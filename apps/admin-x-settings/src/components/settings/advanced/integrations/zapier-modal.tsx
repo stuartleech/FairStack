@@ -48,7 +48,7 @@ const ZapierModal = NiceModal.create(() => {
 
         NiceModal.show(ConfirmationModal, {
             title: 'Regenerate Admin API Key',
-            prompt: 'You will need to locate the Ghost App within your Zapier account and click on "Reconnect" to enter the new Admin API Key.',
+            prompt: 'You will need to locate the Fairstack App within your Zapier account and click on "Reconnect" to enter the new Admin API Key.',
             okLabel: 'Regenerate Admin API Key',
             onOk: async (confirmModal) => {
                 try {
@@ -75,7 +75,7 @@ const ZapierModal = NiceModal.create(() => {
                         href='https://zapier.com/apps/ghost/integrations?utm_medium=partner_api&utm_source=widget&utm_campaign=Widget'
                         rel='noopener noreferrer'
                         target='_blank'>
-                        View more Ghost integrations powered by <span><Icon className='relative top-[-2px] inline-block' name='zapier-logo' size={24} /></span>
+                        View more Fairstack integrations powered by <span><Icon className='relative top-[-2px] inline-block' name='zapier-logo' size={24} /></span>
                     </a>
                     <Button color='black' label='Close' onClick={() => {
                         modal.remove();

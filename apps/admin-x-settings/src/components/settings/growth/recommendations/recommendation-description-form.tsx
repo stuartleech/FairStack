@@ -81,7 +81,7 @@ const RecommendationDescriptionForm: React.FC<Props<EditOrAddRecommendation | Re
                     </div>
                 </div>
             </div>
-            {formState.one_click_subscribe && <Hint>This is a Ghost site, so your readers can subscribe with just one click</Hint>}
+            {formState.one_click_subscribe && <Hint>This is a Fairstack site, so your readers can subscribe with just one click</Hint>}
         </div>
 
         {showURL && <URLTextField

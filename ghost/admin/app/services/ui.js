@@ -131,7 +131,7 @@ export default class UiService extends Service {
 
         let blogTitle = this.config.blogTitle;
 
-        window.document.title = `Ghost Admin - ${blogTitle}`;
+        window.document.title = `Fairstack - ${blogTitle}`;
     }
 
     @action

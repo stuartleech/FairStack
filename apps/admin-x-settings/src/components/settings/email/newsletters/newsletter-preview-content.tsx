@@ -221,7 +221,7 @@ const NewsletterPreviewContent: React.FC<{
                             )} style={{borderColor: dividerColor}}>
                                 <p className="mb-6" style={{color: textColor}}>This is what your content will look like when you send one of your posts as an email newsletter to your subscribers.</p>
                                 <p className="mb-6" style={{color: textColor}}>Over there on the right you&apos;ll see some settings that allow you to customize the look and feel of this template – from colors and typography to layout and buttons – to make it perfectly suited to your brand.</p>
-                                <p className="mb-[52px]" style={{color: textColor}}>Email templates are exceptionally finnicky to make, but we&apos;ve spent a long time optimising this one to make it work beautifully across devices, email clients and content types. So, you can trust that every email you send with Ghost will look great and work well. Just like the rest of your site.</p>
+                                <p className="mb-[52px]" style={{color: textColor}}>Email templates are exceptionally finnicky to make, but we&apos;ve spent a long time optimising this one to make it work beautifully across devices, email clients and content types. So, you can trust that every email you send with Fairstack will look great and work well. Just like the rest of your site.</p>
                                 <hr className={clsx('my-[52px] border-[#e0e7eb]', dividerStyle === 'dashed' && 'border-dashed', dividerStyle === 'dotted' && 'border-b-2 border-t-0 border-dotted')} style={{borderColor: dividerColor}} />
                                 <h3
                                     className={clsx(
@@ -396,7 +396,7 @@ const NewsletterPreviewContent: React.FC<{
                                     <div className="flex flex-col items-center pb-[40px] pt-[10px]">
                                         <a className="pointer-events-none inline-flex cursor-auto items-center px-2 py-1 text-[1.25rem] font-semibold tracking-tight text-grey-900" href="https://ghost.org" style={{color: textColor}}>
                                             <GhostOrb className="mr-[6px] size-4"/>
-                                            <span>Powered by Ghost</span>
+                                            <span>Powered by Fairstack</span>
                                         </a>
                                     </div>
                                 )}

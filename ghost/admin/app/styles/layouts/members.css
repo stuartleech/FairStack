@@ -2377,7 +2377,7 @@ p.gh-members-import-errordetail:first-of-type {
     font-size: 1.3rem;
     text-align: center;
     line-height: 1.5em;
-    color: #738a94;
+    color: #4a7c59;
     padding: 10px 30px;
     word-break: break-word;
 }
@@ -2386,7 +2386,7 @@ p.gh-members-import-errordetail:first-of-type {
     font-size: 1.3rem;
     text-align: center;
     line-height: 1.5em;
-    color: #738a94;
+    color: #4a7c59;
     margin: 0;
     padding: 0;
 }
@@ -2397,14 +2397,14 @@ p.gh-members-import-errordetail:first-of-type {
 
 .gh-members-emailpreview-footersite {
     padding: 10px 30px 60px;
-    color: #738a94;
+    color: #4a7c59;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial, sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.3rem;
     text-align: center;
 }
 
 .gh-members-emailpreview-footersite span {
-    color: #738a94;
+    color: #4a7c59;
 }
 
 .gh-members-emailpreview-badge {
@@ -2533,7 +2533,7 @@ p.gh-members-import-errordetail:first-of-type {
 
 .gh-members-emailpreview-latest-post p {
     margin: 0;
-    color: #738a94;
+    color: #4a7c59;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial, sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.5rem;
 }

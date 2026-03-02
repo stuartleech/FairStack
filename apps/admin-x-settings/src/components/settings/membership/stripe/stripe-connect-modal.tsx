@@ -29,7 +29,7 @@ const Start: React.FC<{onNext?: () => void}> = ({onNext}) => {
                 <img alt='Stripe Verified Partner Badge' src={StripeVerifiedBadge} />
             </div>
             <div className='mb-7 mt-6'>
-                Stripe is our exclusive direct payments partner. Ghost collects <strong>no fees</strong> on any payments! If you don’t have a Stripe account yet, you can <a className='underline' href="https://stripe.com" rel="noopener noreferrer" target="_blank">sign up here</a>.
+                Stripe is our exclusive direct payments partner. Fairstack collects <strong>no fees</strong> on any payments! If you don’t have a Stripe account yet, you can <a className='underline' href="https://stripe.com" rel="noopener noreferrer" target="_blank">sign up here</a>.
             </div>
             <StripeButton label={<>I have a Stripe account, let&apos;s go &rarr;</>} onClick={onNext} />
         </div>
@@ -133,7 +133,7 @@ const Connect: React.FC = () => {
             </div>
             <Heading level={6} grey>Step 1 — <span className='text-black dark:text-white'>Generate secure key</span></Heading>
             <div className='mb-4 mt-2'>
-                Click on the <strong>“Connect with Stripe”</strong> button to generate a secure key that connects your Ghost site with Stripe.
+                Click on the <strong>”Connect with Stripe”</strong> button to generate a secure key that connects your Fairstack site with Stripe.
             </div>
             <StripeButton href={stripeConnectUrl} tag='a' target='_blank' />
             <Heading className='mb-2 mt-8' level={6} grey>Step 2 — <span className='text-black dark:text-white'>Paste secure key</span></Heading>
@@ -185,7 +185,7 @@ const Connected: React.FC<{onClose?: () => void}> = ({onClose}) => {
             </div>
             <div className='my-20 flex flex-col items-center'>
                 <div className='relative h-20 w-[200px]'>
-                    <img alt='Ghost Logo' className='absolute left-10 size-16' src={GhostLogo} />
+                    <img alt='Fairstack Logo' className='absolute left-10 size-16' src={GhostLogo} />
                     <img alt='Stripe Logo' className='absolute right-10 size-16 rounded-2xl shadow-[-1.5px_0_0_1.5px_#fff] dark:shadow-[-1.5px_0_0_1.5px_black]' src={StripeLogo} />
                 </div>
                 <Heading className='text-center' level={3}>You are connected with Stripe!{stripeConnectLivemode ? null : ' (Test mode)'}</Heading>
@@ -196,10 +196,10 @@ const Connected: React.FC<{onClose?: () => void}> = ({onClose}) => {
                 <a className='w-100 mt-5 flex flex-col items-stretch justify-between rounded-sm border border-grey-200 transition-all hover:border-grey-400 md:flex-row dark:border-grey-900' href="https://ghost.org/resources/managing-your-stripe-account/?ref=admin" rel="noopener noreferrer" target="_blank">
                     <div className='order-2 p-4 md:order-1'>
                         <div className='font-bold'>How to setup and manage your Stripe account</div>
-                        <div className='mt-1 text-sm text-grey-800 dark:text-grey-500'>Learn how to configure your Stripe account to work with Ghost, from custom branding to payment receipt emails.</div>
+                        <div className='mt-1 text-sm text-grey-800 dark:text-grey-500'>Learn how to configure your Stripe account to work with Fairstack, from custom branding to payment receipt emails.</div>
                         <div className='mt-3 flex items-center gap-1 text-sm text-grey-800 dark:text-grey-500'>
-                            <img alt='Ghost Logo' className='size-4' src={GhostLogoPink} />
-                            <strong>Ghost Resources</strong>
+                            <img alt='Fairstack Logo' className='size-4' src={GhostLogoPink} />
+                            <strong>Fairstack Resources</strong>
                             <span>&middot;</span>
                             <span>by Kym Ellis</span>
                         </div>
